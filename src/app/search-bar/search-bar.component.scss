@@ -1,0 +1,247 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}
+.row-layout {
+  justify-content: flex-end;
+  width: 7%;
+  min-width: 2px;
+  padding: 0 -63px 0 0;
+  min-height: 24px;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.right {
+  position: absolute;
+  width: 259px;
+  height: 40px;
+  top: 10%;
+  right: 0;
+  min-width: 259px;
+  min-height: 40px;
+  flex: 0 1 ;
+}
+.column-layout {
+  width: 60px;
+  min-width: 60px;
+  min-height: 844px;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_1 {
+  width: calc(99% - 60px);
+  padding: 15px 0 0;
+  min-width: 1348px;
+  min-height: 844px;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.center {
+  width: 88px;
+  height: 36px;
+  margin: 0 0 0 340px;
+  min-width: 88px;
+  min-height: 36px;
+  flex: 0 1 ;
+  position: relative;
+}
+.left {
+  width: 671px;
+  min-width: 671px;
+  height: 50px;
+  min-height: 50px;
+  flex: 0 1 ;
+  position: relative;
+}
+.row-layout_1 {
+  height: calc(100% - 56px);
+  padding: 0 16px 0 0;
+  min-width: 1440px;
+  min-height: 844px;
+  justify-content: space-between;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.search-bar {
+  min-height: 900px;
+  min-width: 1440px;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.background {
+  padding: 10px 0 0;
+  background-color: rgba(0, 153, 255, 1);
+  min-width: 60px;
+  min-height: 844px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.search {
+  margin: 16px 0 0;
+  height: 50px;
+  min-width: 1348px;
+  min-height: 50px;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_2 {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  position: relative;
+}
+.row-layout_2 {
+  min-width: 88px;
+  min-height: 36px;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.row-layout_3 {
+  min-width: 259px;
+  min-height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.row-layout_4 {
+  min-width: 671px;
+  min-height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.subheader {
+  height: 50px;
+  min-width: 1348px;
+  min-height: 50px;
+  align-items: center;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.row-layout_5 {
+  min-width: 24px;
+  min-height: 24px;
+  width: 100%;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.prefix-container {
+  align-items: center;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
+.project-members {
+  width: 141px;
+  min-width: 141px;
+  color: rgba(0, 0, 0, 0.87);
+  flex: 0 1 ;
+  height: max-content;
+  position: relative;
+}
+.label {
+  width: 189px;
+  min-width: 189px;
+  color: rgba(0, 0, 0, 0.87);
+  flex: 0 1 ;
+  height: max-content;
+  position: relative;
+}
+.text {
+  width: 46px;
+  min-width: 46px;
+  color: rgba(0, 0, 0, 0.62);
+  flex: 0 1 ;
+  height: max-content;
+  position: relative;
+}
+.icon {
+  min-width: min-content;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  position: relative;
+}
+.avatar {
+  margin: 10px 0 0;
+  position: relative;
+}
+.icon_1 {
+  width: max-content;
+  height: max-content;
+}
+.icon_2 {
+  margin: 0 0 0 1rem;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+.avatar_1 {
+  position: relative;
+}
+.button {
+  position: absolute;
+  width: 200px;
+  top: 14%;
+  right: 0;
+  flex: 0 1 ;
+  height: max-content;
+  min-width: min-content;
+}
+.input {
+  width: 260px;
+  flex: 0 1 ;
+  height: max-content;
+  min-width: min-content;
+  position: relative;
+}
+.input_1 {
+  width: 240px;
+  flex: 0 1 ;
+  height: max-content;
+  min-width: min-content;
+  position: relative;
+}
+.checkbox {
+  width: max-content;
+  height: max-content;
+  min-width: min-content;
+  position: relative;
+}
+.icon-button {
+  position: relative;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

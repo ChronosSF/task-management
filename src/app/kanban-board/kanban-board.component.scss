@@ -1,0 +1,366 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}
+.right {
+  position: absolute;
+  width: 259px;
+  height: 40px;
+  top: 10%;
+  right: 0;
+  min-width: 259px;
+  min-height: 40px;
+  flex: 0 1 ;
+}
+.column-layout {
+  width: 60px;
+  min-width: 60px;
+  min-height: 844px;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_1 {
+  width: calc(99% - 60px);
+  min-width: 1357px;
+  padding: 15px 0 0;
+  min-height: 844px;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.subheader {
+  width: 99%;
+  height: 50px;
+  min-width: 1348px;
+  min-height: 50px;
+  align-items: center;
+  flex: 0 1 ;
+  position: relative;
+}
+.prefix-container {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  align-items: center;
+  position: relative;
+}
+.center {
+  width: 88px;
+  height: 36px;
+  margin: 0 0 0 340px;
+  min-width: 88px;
+  min-height: 36px;
+  flex: 0 1 ;
+  position: relative;
+}
+.board {
+  width: 1356px;
+  min-width: 1356px;
+  margin: 24px 0 0;
+  height: 560px;
+  min-height: 560px;
+  flex: 0 1 ;
+  position: relative;
+}
+.row-layout {
+  height: calc(100% - 56px);
+  padding: 0 7px 0 0;
+  min-width: 1440px;
+  min-height: 844px;
+  justify-content: space-between;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.cards {
+  height: 476px;
+  min-height: 476px;
+  justify-content: center;
+  min-width: 336px;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.in-development {
+  height: 461px;
+  min-height: 461px;
+  margin: 0 4px 0 0;
+  width: 336px;
+  padding: 16px 0;
+  min-width: 336px;
+  flex: 0 1 ;
+  position: relative;
+}
+.cards_1 {
+  height: 377px;
+  min-height: 377px;
+  justify-content: center;
+  min-width: 336px;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.validation {
+  height: 274px;
+  min-height: 274px;
+  margin: 0 4px 0 0;
+  width: 336px;
+  padding: 16px 0;
+  min-width: 336px;
+  flex: 0 1 ;
+  position: relative;
+}
+.cards_2 {
+  height: 190px;
+  min-height: 190px;
+  justify-content: center;
+  min-width: 336px;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.done {
+  height: 318px;
+  min-height: 318px;
+  width: 336px;
+  padding: 16px 0;
+  min-width: 336px;
+  flex: 0 1 ;
+  position: relative;
+}
+.cards_3 {
+  height: 234px;
+  min-height: 234px;
+  justify-content: center;
+  min-width: 336px;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.kanban-board {
+  min-height: 900px;
+  min-width: 1440px;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.background {
+  padding: 10px 0 0;
+  background-color: rgba(0, 153, 255, 1);
+  min-width: 60px;
+  min-height: 844px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.to-do {
+  height: 560px;
+  min-height: 560px;
+  margin: 0 4px 0 0;
+  width: 336px;
+  padding: 16px 0;
+  min-width: 336px;
+  flex: 0 1 ;
+  position: relative;
+}
+.row-layout_1 {
+  min-width: 88px;
+  min-height: 36px;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.row-layout_2 {
+  min-width: 259px;
+  min-height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_2 {
+  min-height: 476px;
+  width: 95%;
+  min-width: 320px;
+  justify-content: space-between;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.background_1 {
+  min-height: 461px;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.12);
+  align-items: center;
+  min-width: 336px;
+  height: 100%;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_3 {
+  min-height: 377px;
+  width: 95%;
+  min-width: 320px;
+  justify-content: space-between;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.background_2 {
+  min-height: 274px;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.12);
+  align-items: center;
+  min-width: 336px;
+  height: 100%;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_4 {
+  min-height: 190px;
+  width: 95%;
+  min-width: 320px;
+  justify-content: space-between;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.background_3 {
+  min-height: 318px;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.12);
+  align-items: center;
+  min-width: 336px;
+  height: 100%;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_5 {
+  min-height: 234px;
+  width: 95%;
+  min-width: 320px;
+  justify-content: space-between;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.background_4 {
+  min-height: 560px;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.12);
+  align-items: center;
+  min-width: 336px;
+  height: 100%;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.actions {
+  min-width: 50px;
+  min-height: 40px;
+}
+.card {
+  margin: 0 0 8px;
+  height: max-content;
+  width: 100%;
+  position: relative;
+}
+.card_1 {
+  height: max-content;
+  width: 100%;
+  position: relative;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
+.project-members {
+  width: 141px;
+  min-width: 141px;
+  flex: 0 1 ;
+  color: rgba(0, 0, 0, 0.87);
+  position: relative;
+  height: max-content;
+}
+.to-do_1 {
+  width: 73px;
+  min-width: 73px;
+  margin: 0 0 16px;
+  color: rgba(0, 0, 0, 0.87);
+  position: relative;
+  height: max-content;
+}
+.in-development_1 {
+  width: 212px;
+  min-width: 212px;
+  margin: 0 0 16px;
+  color: rgba(0, 0, 0, 0.87);
+  position: relative;
+  height: max-content;
+}
+.validation_1 {
+  width: 136px;
+  min-width: 136px;
+  margin: 0 0 16px;
+  color: rgba(0, 0, 0, 0.87);
+  position: relative;
+  height: max-content;
+}
+.done_1 {
+  width: 69px;
+  min-width: 69px;
+  margin: 0 0 16px;
+  color: rgba(0, 0, 0, 0.87);
+  position: relative;
+  height: max-content;
+}
+.avatar {
+  margin: 10px 0 0;
+  position: relative;
+}
+.icon {
+  margin: 0 0 0 1rem;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+.icon_1 {
+  width: max-content;
+  height: max-content;
+}
+.avatar_1 {
+  position: relative;
+}
+.input {
+  width: 260px;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 1 ;
+  position: relative;
+}
+.icon-button {
+  position: relative;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,258 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}
+.right {
+  position: absolute;
+  width: 259px;
+  top: 10%;
+  right: 0;
+  min-width: 259px;
+  height: 40px;
+  min-height: 40px;
+  flex: 0 1 ;
+}
+.column-layout {
+  width: 60px;
+  min-width: 60px;
+  min-height: 844px;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_1 {
+  width: calc(99% - 60px);
+  padding: 15px 0 0;
+  min-width: 1356px;
+  min-height: 844px;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.subheader {
+  width: 99%;
+  height: 50px;
+  min-width: 1348px;
+  min-height: 50px;
+  align-items: center;
+  flex: 0 1 ;
+  position: relative;
+}
+.prefix-container {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  align-items: center;
+  position: relative;
+}
+.center {
+  width: 88px;
+  height: 36px;
+  margin: 0 0 0 340px;
+  min-width: 88px;
+  min-height: 36px;
+  flex: 0 1 ;
+  position: relative;
+}
+.board {
+  width: 1356px;
+  height: 308px;
+  margin: 24px 0 0;
+  min-width: 1356px;
+  min-height: 308px;
+  flex: 0 1 ;
+  position: relative;
+}
+.row-layout {
+  height: calc(100% - 56px);
+  padding: 0 8px 0 0;
+  min-width: 1440px;
+  justify-content: space-between;
+  min-height: 844px;
+  width: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.in-development {
+  height: 252px;
+  min-height: 252px;
+  margin: 0 4px 0 0;
+  width: 336px;
+  min-width: 336px;
+  flex: 0 1 ;
+  position: relative;
+}
+.list-view {
+  min-height: 900px;
+  min-width: 1440px;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.background {
+  padding: 10px 0 0;
+  background-color: rgba(0, 153, 255, 1);
+  min-width: 60px;
+  min-height: 844px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_2 {
+  height: 196px;
+  width: 336px;
+  min-height: 196px;
+  min-width: 336px;
+  flex: 0 1 ;
+  position: relative;
+}
+.row-layout_1 {
+  min-width: 88px;
+  min-height: 36px;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.row-layout_2 {
+  min-width: 259px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 40px;
+  flex: 0 1 ;
+  position: relative;
+}
+.background_1 {
+  min-height: 252px;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.12);
+  min-width: 336px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_3 {
+  min-height: 308px;
+  min-width: 336px;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_4 {
+  margin: 0 4px 0 0;
+}
+.column-layout_5 {
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.12);
+  align-items: center;
+  width: 100%;
+}
+.to-do {
+  width: 336px;
+}
+.column-layout_6 {
+  min-height: 196px;
+  min-width: 336px;
+  height: 100%;
+  flex: 0 1 ;
+  position: relative;
+}
+.column-layout_7 {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  min-height: 40px;
+  position: relative;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
+.project-members {
+  width: 141px;
+  min-width: 141px;
+  flex: 0 1 ;
+  color: rgba(0, 0, 0, 0.87);
+  height: max-content;
+  position: relative;
+}
+.to-do_1 {
+  width: 73px;
+  min-width: 73px;
+  color: rgba(0, 0, 0, 0.87);
+  height: max-content;
+  position: relative;
+}
+.in-development_1 {
+  width: 212px;
+  min-width: 212px;
+  color: rgba(0, 0, 0, 0.87);
+  height: max-content;
+  position: relative;
+}
+.validation {
+  width: 136px;
+  min-width: 136px;
+  color: rgba(0, 0, 0, 0.87);
+  height: max-content;
+  position: relative;
+}
+.done {
+  width: 69px;
+  min-width: 69px;
+  color: rgba(0, 0, 0, 0.87);
+  height: max-content;
+  position: relative;
+}
+.avatar {
+  margin: 10px 0 0;
+  position: relative;
+}
+.icon {
+  width: max-content;
+  height: max-content;
+}
+.icon_1 {
+  margin: 0 0 0 1rem;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+.avatar_1 {
+  position: relative;
+}
+.input {
+  width: 260px;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 1 ;
+  position: relative;
+}
+.icon-button {
+  position: relative;
+}
+.list {
+  position: relative;
+  width: 95%;
+  height: auto;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
